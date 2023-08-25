@@ -6,7 +6,7 @@ export default function SpaceController(props) {
 
     useEffect(() => fetchOwnerCats(), []);
 
-    const backUrl = "http://10.200.0.2:8081/api/space";
+    const backUrl = "http://34.163.120.93:8081/api/space";
 
     function fetchOwnerCats() {
         const requestOptions = {

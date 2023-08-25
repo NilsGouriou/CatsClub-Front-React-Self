@@ -4,7 +4,7 @@ import ConnectionView from "../view/ConnectionView";
 
 export default function ConnectionController(props) {
 
-    const backUrl = "http://10.200.0.2:8081/api/security";
+    const backUrl = "http://34.163.120.93:8081/api/security";
 
     function fetchOwner(login, password) {
         const requestOptions = {
