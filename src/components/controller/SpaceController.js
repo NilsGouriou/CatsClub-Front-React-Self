@@ -5,7 +5,7 @@ import SpaceView from "../view/SpaceView";
 export default function SpaceController(props) {
 
     useEffect(() => fetchOwnerCats(), []);
-
+cd
     const backUrl = "http://34.163.120.93:8081/api/space";
 
     function fetchOwnerCats() {
